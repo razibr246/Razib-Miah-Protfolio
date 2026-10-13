@@ -1,99 +1,64 @@
-# 🚀 3D Developer Portfolio Website (React + TypeScript + Three.js)
+# Razib Miah — Portfolio
 
-[![3D portfolio preview (click to watch video)](./Screenshot_2026-04-08_22-10-00.png)](./video.mp4)
+[![Razib Miah portfolio preview](./preview.png)](https://razibmiah.vercel.app)
 
-A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
+**Live site: https://razibmiah.vercel.app**
 
-If you’re a developer looking for a **portfolio template** that feels premium, interactive, and memorable—this repo is for you.
-
-> Live preview: https://www.redoyanulhaque.me/
+My personal 3D portfolio website. I'm an AI/ML and web developer who learns by building, from C console systems to machine learning notebooks and Next.js web apps.
 
 ---
 
-## ✨ Highlights
+## 👋 About Me
 
-- **3D / WebGL experience** powered by **Three.js**
-- Smooth animations with **GSAP**
-- Modern **React + TypeScript** codebase
-- Fast, responsive UI (desktop + mobile)
-- Designed for developers, engineers, programmers, and creators
+- 🤖 Learning and building in **machine learning and deep learning** with Python, TensorFlow, and PyTorch
+- 🎓 Started my AI/ML journey with the **Phitron AIML** program
+- 🌐 Building web apps with **Next.js, React, and TypeScript**
+- 💻 Strong foundations in **C**, data structures, and algorithms
 
----
-
-## 🧰 Tech Stack
-
-- **React**
-- **TypeScript**
-- **Three.js / WebGL**
-- **GSAP**
-- **HTML / CSS / JavaScript**
+> "And that there is not for man except that for which he strives." (Quran 53:39)
 
 ---
 
-## 🚀 Getting Started
+## 📂 Featured Projects
 
-### 1) Clone
+| Project | Tech |
+| --- | --- |
+| [Digital Legal Aid System](https://github.com/razibr246/Digital-Legal-Aid-System) | Next.js, React, TypeScript |
+| [Advanced Deep Learning Deep Dive](https://github.com/razibr246/Advanced-Deep-Learning-Deep-Dive) | Python, PyTorch |
+| [Machine Learning Marathon](https://github.com/razibr246/Machine-Learning-Marathon) | Python, TensorFlow, scikit-learn, NLTK |
+| [Dive into the Sea of Deep Learning](https://github.com/razibr246/Dive-into-the-sea-of-Deep-Learning) | Python, TensorFlow, NumPy |
+| [Transport Management System](https://github.com/razibr246/transport-management-system-c) | C |
+
+---
+
+## 🧰 Built With
+
+**React** · **TypeScript** · **Three.js / WebGL** · **GSAP** · **Vite** · deployed on **Vercel**
+
+---
+
+## 🚀 Run Locally
 
 ```bash
-git clone https://github.com/red1-for-hek/portfolio-website.git
-cd portfolio-website
-```
-
-### 2) Install
-
-```bash
+git clone https://github.com/razibr246/Razib-Miah-Protfolio.git
+cd Razib-Miah-Protfolio
 npm install
-```
-
-### 3) Run locally
-
-```bash
 npm run dev
 ```
 
-### 4) Build
-
-```bash
-npm run build
-```
-
----
-
-## 🧩 Customize (Quick Guide)
-
-Typical things you’ll want to update:
-
-- **Your name + hero section text**
-- **Projects list**
-- **Social links** (GitHub, LinkedIn, email)
-- **SEO meta title/description**
-
----
-
-## ⭐ Support
-
-If you found this useful:
-
-- Please **star** the repository (it helps a lot)
-- Share it with a friend who needs a portfolio template
-- Sponsor via the **Sponsor** button on GitHub (if available in your region)
+The chat assistant on the Play page needs a `GROQ_API_KEY` environment variable.
 
 ---
 
 ## 🤝 Connect
 
-- LinkedIn: https://www.linkedin.com/in/red1-for-hek/
-
----
-
-## 🏷️ Recommended GitHub Topics (add in repo settings)
-
-Add these topics to improve GitHub search visibility:
-
-`portfolio` `developer-portfolio` `portfolio-website` `portfolio-template` `3d-portfolio` `react` `typescript` `threejs` `webgl` `gsap` `frontend` `vite`
+- GitHub: https://github.com/razibr246
+- LinkedIn: https://www.linkedin.com/in/razibr246/
+- X: https://x.com/razibr246
+- Email: razibmiah2003@gmail.com
 
 ---
 
 ## 🪪 License
 
-This project is open source and available under the **MIT License**. See [LICENSE](LICENSE).
+MIT License. Based on the open-source 3D portfolio template by Redoyanul Haque. See [LICENSE](LICENSE).

@@ -68,10 +68,14 @@ const Contact = () => {
                 {config.contact.email}
               </a>
             </p>
-            <h4>Location</h4>
-            <p>
-              <span>{config.social.location}</span>
-            </p>
+            {config.social.location && (
+              <>
+                <h4>Location</h4>
+                <p>
+                  <span>{config.social.location}</span>
+                </p>
+              </>
+            )}
           </div>
           <div className="contact-box">
             <h4>Social</h4>
@@ -102,24 +106,28 @@ const Contact = () => {
             >
               Twitter <MdArrowOutward />
             </a>
-            <a
-              href={config.contact.facebook}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Facebook <MdArrowOutward />
-            </a>
-            <a
-              href={config.contact.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
-            </a>
+            {config.contact.facebook && (
+              <a
+                href={config.contact.facebook}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cursor="disable"
+                className="contact-social"
+              >
+                Facebook <MdArrowOutward />
+              </a>
+            )}
+            {config.contact.instagram && (
+              <a
+                href={config.contact.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cursor="disable"
+                className="contact-social"
+              >
+                Instagram <MdArrowOutward />
+              </a>
+            )}
           </div>
           <div className="contact-box">
             <h2>

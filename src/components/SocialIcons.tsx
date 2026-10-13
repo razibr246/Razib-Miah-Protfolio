@@ -75,11 +75,13 @@ const SocialIcons = () => {
             <FaXTwitter />
           </a>
         </span>
-        <span>
-          <a href={config.contact.instagram} target="_blank" rel="noopener noreferrer">
-            <FaInstagram />
-          </a>
-        </span>
+        {config.contact.instagram && (
+          <span>
+            <a href={config.contact.instagram} target="_blank" rel="noopener noreferrer">
+              <FaInstagram />
+            </a>
+          </span>
+        )}
       </div>
       <a className="resume-button" href="#">
         <HoverLinks text="RESUME" />

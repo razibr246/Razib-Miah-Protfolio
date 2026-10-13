@@ -1,190 +1,173 @@
 export const config = {
     developer: {
-        name: "Redoyanul",
-        fullName: "Redoyanul Haque",
-        title: "AI & Full-Stack Developer",
-        description: "AI & Full-Stack Developer building intelligent systems and modern web applications. Passionate about machine learning, deep learning, and creating next-gen autonomous agents."
+        name: "Razib",
+        fullName: "Razib Miah",
+        title: "AI/ML & Web Developer",
+        description: "Developer learning and building in machine learning, deep learning, and modern web development with Python, TensorFlow, PyTorch, and Next.js."
     },
     social: {
-        github: "red1-for-hek",
-        email: "redoyanul1234@gmail.com",
-        location: "Bangladesh"
+        github: "razibr246",
+        email: "razibmiah2003@gmail.com",
+        location: ""
     },
     about: {
         title: "About Me",
-        description: "I am a self-taught AI & Full-Stack Developer from Bangladesh. I build intelligent systems, chatbots, and modern web applications. My expertise includes Machine Learning, Deep Learning, NLP, and Full-Stack Web Development with React, Node.js, and Python. Currently building next-gen AI Agents and JARVIS-like Personal Assistants. I have a competitive programming mindset and a deep passion for automation. Code is poetry, AI is the canvas."
+        description: "I'm Razib Miah, a developer who learns by building. I started with C, writing console systems like a university transport management system, then moved into web development with HTML, CSS, JavaScript, and Next.js. I began my AI/ML journey through the Phitron AIML program, and I'm now diving deep into machine learning and deep learning with Python, TensorFlow, and PyTorch. My motto: \"And that there is not for man except that for which he strives.\" (Quran 53:39)"
     },
     experiences: [
         {
-            position: "Learning Something New",
-            company: "Self-Development",
-            period: "2025 - Present",
-            location: "Bangladesh",
-            description: "Continuously exploring emerging technologies, researching advanced AI systems, and pushing the boundaries of what's possible in tech.",
+            position: "Deep Learning",
+            company: "Self-Study & Projects",
+            period: "2026 - Present",
+            location: "",
+            description: "Studying neural networks from perceptrons to convolutional neural networks, and building image models with PyTorch and TensorFlow.",
             responsibilities: [
-                "Researching cutting-edge AI and ML technologies",
-                "Experimenting with new frameworks and tools",
-                "Contributing to open-source projects",
-                "Building innovative personal projects"
+                "Implementing perceptrons and neural networks from scratch",
+                "Building CNNs and experimenting with pooling layers",
+                "Loading and transforming image datasets with PyTorch",
+                "Documenting each module in Jupyter notebooks"
             ],
-            technologies: ["Research", "Innovation", "Open Source", "New Tech"]
+            technologies: ["Python", "PyTorch", "TensorFlow", "Keras", "NumPy", "Jupyter"]
         },
         {
-            position: "AI Engineer",
-            company: "Freelance & Projects",
+            position: "Full-Stack Web Developer",
+            company: "Digital Legal Aid System",
+            period: "2026",
+            location: "",
+            description: "Building a digital legal aid platform with Next.js and TypeScript to make legal help easier to access.",
+            responsibilities: [
+                "Developing the app with Next.js, React, and TypeScript",
+                "Building UI components with Tailwind CSS and Radix UI",
+                "Integrating AI features with the Vercel AI SDK"
+            ],
+            technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "AI SDK"]
+        },
+        {
+            position: "Machine Learning",
+            company: "Phitron AIML Program",
+            period: "2026",
+            location: "",
+            description: "Started my AI/ML journey with Phitron, covering Python, data preparation, classic ML algorithms, NLP basics, and optimizers.",
+            responsibilities: [
+                "Cleaning data, handling missing values, and detecting outliers",
+                "Training models with scikit-learn and TensorFlow",
+                "Text processing with NLTK (tokenization, lemmatization)",
+                "Visualizing data with Matplotlib and Seaborn"
+            ],
+            technologies: ["Python", "scikit-learn", "TensorFlow", "Pandas", "NLTK", "Matplotlib"]
+        },
+        {
+            position: "Web Development",
+            company: "Self-Learning",
+            period: "2026",
+            location: "",
+            description: "Learned the foundations of the web, from my first HTML pages to CSS styling and JavaScript.",
+            responsibilities: [
+                "Building pages with semantic HTML",
+                "Styling layouts with CSS",
+                "Practicing JavaScript fundamentals"
+            ],
+            technologies: ["HTML", "CSS", "JavaScript"]
+        },
+        {
+            position: "C Programming",
+            company: "University Projects",
             period: "2025",
-            location: "Bangladesh",
-            description: "Developing intelligent AI systems, chatbots, and machine learning solutions. Building next-gen conversational AI agents and JARVIS-like personal assistants.",
+            location: "",
+            description: "Wrote my first programs in C, including an e-commerce order management system and a university transport management system.",
             responsibilities: [
-                "Building AI-powered chatbots and conversational agents",
-                "Developing machine learning models with TensorFlow and PyTorch",
-                "Working with LLMs and transformer architectures",
-                "Creating autonomous AI systems and automation tools"
+                "Building menu-driven console applications",
+                "Using linked lists, structs, and file handling",
+                "Solving algorithm problems like coin change counting"
             ],
-            technologies: ["Python", "TensorFlow", "PyTorch", "LLMs", "NLP", "AI Agents"]
-        },
-        {
-            position: "Full-Stack Developer",
-            company: "Freelance & Projects",
-            period: "2024",
-            location: "Bangladesh",
-            description: "Built complete web applications from frontend to backend. Developed responsive UIs, RESTful APIs, and database solutions for various clients and projects.",
-            responsibilities: [
-                "Developing full-stack web applications using React and Node.js",
-                "Building RESTful APIs and integrating databases",
-                "Creating responsive and interactive user interfaces",
-                "Deploying and maintaining web applications"
-            ],
-            technologies: ["React", "Node.js", "MongoDB", "Express", "Next.js", "TypeScript"]
-        },
-        {
-            position: "Python Developer",
-            company: "Self-Taught & Projects",
-            period: "2023",
-            location: "Bangladesh",
-            description: "Dove deep into Python programming, building automation scripts, bots, and mastering the fundamentals of software development and problem-solving.",
-            responsibilities: [
-                "Learning Python programming and core concepts",
-                "Building automation scripts and Discord bots",
-                "Exploring data structures and algorithms",
-                "Participating in competitive programming"
-            ],
-            technologies: ["Python", "Automation", "Scripting", "Discord.py", "Problem Solving"]
-        },
-        {
-            position: "Graphic Designer",
-            company: "Freelance",
-            period: "2022",
-            location: "Bangladesh",
-            description: "Started my creative journey as a graphic designer, creating logos, banners, and visual content. This sparked my passion for technology and digital creation.",
-            responsibilities: [
-                "Designing logos and brand identity materials",
-                "Creating social media graphics and banners",
-                "Working with clients on creative projects",
-                "Learning design principles and visual aesthetics"
-            ],
-            technologies: ["Photoshop", "Illustrator", "Canva", "Figma", "Visual Design"]
-        },
-        {
-            position: "Microsoft Office",
-            company: "Begin Learning",
-            period: "2021",
-            location: "Bangladesh",
-            description: "Started my journey into the digital world by learning Microsoft Office tools. This foundational step introduced me to computers and sparked my curiosity for technology.",
-            responsibilities: [
-                "Learning Microsoft Word, Excel, and PowerPoint",
-                "Creating documents and presentations",
-                "Understanding basic computer operations",
-                "Building foundational digital skills"
-            ],
-            technologies: ["MS Word", "MS Excel", "MS PowerPoint", "Computer Basics"]
+            technologies: ["C", "Data Structures", "Algorithms"]
         }
     ],
     projects: [
         {
             id: 1,
-            title: "Drishti",
-            category: "AI / LLM",
-            technologies: "Python, PyTorch, Transformers, FastAPI, React, MongoDB",
-            image: "/images/Drishti.png",
-            description: "Bangladesh's first intelligent advanced AI chatbot powered by a custom Large Language Model. Features natural language understanding, contextual conversations, and multilingual support including Bengali.",
-            link: "https://huggingface.co/red1-for-hek/drishti-ilm-x1"
+            title: "Digital Legal Aid System",
+            category: "Web App",
+            technologies: "Next.js, React, TypeScript, CSS",
+            image: "/images/placeholder.webp",
+            description: "A web platform that makes legal aid more accessible, built with Next.js and TypeScript.",
+            link: "https://github.com/razibr246/Digital-Legal-Aid-System"
         },
         {
             id: 2,
-            title: "VoteChain",
-            category: "Blockchain",
-            technologies: "Solidity, Web3.js, React, Ethereum, IPFS, MetaMask, Node.js",
-            image: "/images/VoteChain.png",
-            description: "A decentralized election system built on blockchain technology ensuring transparent, tamper-proof, and verifiable voting. Features smart contracts for vote integrity and real-time result tracking.",
-            link: "https://github.com/red1-for-hek/smart-election-by-blockchain"
+            title: "Advanced Deep Learning Deep Dive",
+            category: "Deep Learning",
+            technologies: "Python, Jupyter Notebook, Deep Learning",
+            image: "/images/placeholder.webp",
+            description: "Notebooks working through advanced deep learning concepts and models.",
+            link: "https://github.com/razibr246/Advanced-Deep-Learning-Deep-Dive"
+        },
+        {
+            id: 3,
+            title: "Machine Learning Marathon",
+            category: "Machine Learning",
+            technologies: "Python, Jupyter Notebook, Machine Learning",
+            image: "/images/placeholder.webp",
+            description: "A hands-on series of machine learning notebooks and exercises.",
+            link: "https://github.com/razibr246/Machine-Learning-Marathon"
         },
         {
             id: 4,
-            title: "Flood Spaces 2.0",
-            category: "AI / ML",
-            technologies: "Python, TensorFlow, Pandas, React, FastAPI, GIS",
-            image: "/images/FloodSpaces.png",
-            description: "Predicts flood risks across Bangladesh up to one month in advance and sends early alerts to help people prepare.",
-            link: "https://github.com/red1-for-hek/Flood-Spaces-2.0"
+            title: "Transport Management System",
+            category: "C / Systems",
+            technologies: "C, Linked Lists, File Handling, Structs",
+            image: "/images/placeholder.webp",
+            description: "A menu-driven university transport management system with admin and student logins, bus assignment, schedules, and announcements.",
+            link: "https://github.com/razibr246/transport-management-system-c"
         },
         {
             id: 5,
-            title: "Phoenix 3.0",
-            category: "AI Assistant",
-            technologies: "Python, Speech Recognition, PyAutoGUI, OpenAI API, Tkinter",
-            image: "/images/Phoenix3.0.png",
-            description: "A JARVIS-inspired personal AI desktop assistant. Controls system functions, manages tasks, answers queries, automates workflows, and provides voice-activated computing experience.",
-            link: "https://github.com/red1-for-hek/phoenix3.0"
+            title: "Dive into the Sea of Deep Learning",
+            category: "Deep Learning",
+            technologies: "Python, Jupyter Notebook, Neural Networks",
+            image: "/images/placeholder.webp",
+            description: "My deep learning practice notebooks, from fundamentals to building neural networks.",
+            link: "https://github.com/razibr246/Dive-into-the-sea-of-Deep-Learning"
         },
         {
             id: 6,
-            title: "RedxChess",
-            category: "AI / Game Engine",
-            technologies: "Python, C++, Neural Networks, Bitboards, UCI Protocol",
-            image: "/images/RedxChess.png",
-            description: "A high-performance chess engine rated 3640 ELO. Features advanced search algorithms, neural network evaluation, and optimized bitboard representation for lightning-fast move generation.",
-            link: "/play"
+            title: "Python Mini Projects",
+            category: "Python",
+            technologies: "Python",
+            image: "/images/placeholder.webp",
+            description: "A collection of small Python projects built while learning.",
+            link: "https://github.com/razibr246/Python-Mini-projects"
         },
         {
             id: 7,
-            title: "Prodesk",
-            category: "E-commerce",
-            technologies: "React, Node.js, MongoDB, Express, Stripe",
-            image: "/images/Prodesk.png",
-            description: "A complete e-commerce platform with secure checkout and smooth product browsing.",
-            link: "https://github.com/red1-for-hek/prodesk"
-        },
-        {
-            id: 8,
-            title: "HekTools",
-            category: "Security / Android",
-            technologies: "Kotlin, Android SDK, Firebase, Python, Encryption",
-            image: "/images/hektools.png",
-            description: "An advanced Android monitoring and security research tool. Features remote device management, activity logging, and encrypted data transmission for security testing purposes.",
-            link: ""
+            title: "E-Commerce Order Management System",
+            category: "C / Systems",
+            technologies: "C",
+            image: "/images/placeholder.webp",
+            description: "A console-based order management system in C, and my first GitHub repository.",
+            link: "https://github.com/razibr246/E-COMMERCE-ORDER-MANAGEMENT-SYSTEM"
         }
     ],
     contact: {
-        email: "redoyanul1234@gmail.com",
-        github: "https://github.com/red1-for-hek",
-        linkedin: "https://linkedin.com/in/red1-for-hek",
-        twitter: "https://x.com/red_1_ul",
-        facebook: "https://www.facebook.com/redoyanulhaque.hacker.official",
-        instagram: "https://www.instagram.com/red_1_ul"
+        email: "razibmiah2003@gmail.com",
+        github: "https://github.com/razibr246",
+        linkedin: "https://www.linkedin.com/in/razibr246/",
+        twitter: "https://x.com/razibr246",
+        facebook: "",
+        instagram: ""
     },
     skills: {
         develop: {
-            title: "AI DEVELOPER",
-            description: "Building intelligent systems & AI solutions",
-            details: "Developing AI agents, chatbots, and machine learning models using Python, TensorFlow, and PyTorch. Specializing in LLMs, NLP, deep learning, and autonomous systems.",
-            tools: ["Python", "TensorFlow", "PyTorch", "OpenCV", "Scikit-learn", "LLMs", "NLP", "Deep Learning", "Chatbots", "AI Agents"]
+            title: "AI / ML",
+            description: "Machine learning & deep learning",
+            details: "Training and experimenting with machine learning and deep learning models in Python, from data preparation to neural networks and CNNs.",
+            tools: ["Python", "TensorFlow", "PyTorch", "Keras", "Scikit-learn", "NumPy", "Pandas", "Matplotlib", "NLTK", "Jupyter"]
         },
         design: {
-            title: "FULL-STACK",
-            description: "Modern web development & scalable applications",
-            details: "Building responsive and performant web applications using React, Next.js, Node.js, and databases. Creating seamless user experiences with modern UI/UX principles.",
-            tools: ["React", "Next.js", "Node.js", "TypeScript", "MongoDB", "PostgreSQL", "TailwindCSS", "REST APIs", "Docker", "Git"]
+            title: "WEB DEV",
+            description: "Modern websites & web apps",
+            details: "Building responsive web apps with Next.js, React, and TypeScript, starting from strong HTML, CSS, and JavaScript fundamentals.",
+            tools: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "C", "Git", "GitHub"]
         }
     }
 };
